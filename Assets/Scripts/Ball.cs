@@ -15,7 +15,7 @@ public class Ball : MonoBehaviour
     void Start()
     {
         transform.position = Vector2.zero;
-        direction = new Vector2(Random.Range(0.5f, 1), Random.Range(0.5f, 1));
+        direction = new Vector2(Random.Range(-1, 1), Random.Range(-1, 1));
         points = 0;
     }
 
